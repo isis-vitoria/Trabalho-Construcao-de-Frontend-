@@ -1,0 +1,11 @@
+{
+  "name": "trabalho-construcao-de-frontend-",
+  "version": "1.0.0",
+  "description": "Esse repositório possui o trabalho do primeiro semestre de Construção de Frontend \r Objetivo Geral: Desenvolver um site para COFFEE SHOPS TIA ROSA\r Objetivos Específicos: 1 Colocar em prática o que foi estudado na disciplina; \r 2 Desenvolver um site com layout intuitivo; \r 3 Realizar a hospedagem do site; \r 4 Não desenvolver conteúdos impróprios.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
