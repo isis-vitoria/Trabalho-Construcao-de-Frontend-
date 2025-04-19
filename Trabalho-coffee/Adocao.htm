@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Adoção</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body class="Adocao">
+  <header>
+    <h1>Adoção de gatos</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Lar</a></li>
+        <li><a href="nossaHistoria.html">Nossa História</a></li>
+        <li><a href="cardapio.html">Cardápio</a></li>
+        <li><a href="Adocao.htm">Adoção</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section>
+    <h2>Adote um gato</h2>
+    <form id="formAdocao">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" required />
+
+      <label for="telefone">Telefone:</label>
+      <input type="tel" id="telefone" required />
+
+      <label for="motivo">Por que deseja adotar?</label>
+      <textarea id="motivo" required></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+
+    <p id="mensagem"></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Coffee Shops Tia Rosa. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="adocao.js"></script>
+</body>
+</html>
